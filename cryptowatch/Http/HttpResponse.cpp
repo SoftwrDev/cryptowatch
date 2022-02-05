@@ -1,7 +1,3 @@
-//
-// Created by softwrdev on 05/02/2022.
-//
-
 #include "HttpResponse.h"
 
 namespace SoftwrDev {
