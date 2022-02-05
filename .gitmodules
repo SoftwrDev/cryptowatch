@@ -1,0 +1,3 @@
+[submodule "cryptowatch/lib/curlpp"]
+	path = cryptowatch/lib/curlpp
+	url = git@github.com:jpbarrette/curlpp.git
