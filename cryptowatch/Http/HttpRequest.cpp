@@ -1,10 +1,11 @@
-#include "HttpRequest.h"
+#include <cstring>
+#include <sstream>
 
 #include "curlpp/Easy.hpp"
 #include "curlpp/Options.hpp"
-#include <cstring>
-#include <sstream>
 #include "curlpp/cURLpp.hpp"
+
+#include "HttpRequest.h"
 
 namespace SoftwrDev {
     HttpResponse HttpRequest::get() {
