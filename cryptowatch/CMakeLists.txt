@@ -12,6 +12,7 @@ add_library(
         Http/HttpResponse.cpp
         Http/HttpRequest.cpp
         Crypto/Bitcoin.cpp
+        Crypto/Ethereum.cpp
 )
 
 add_subdirectory(lib/curlpp)
