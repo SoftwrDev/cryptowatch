@@ -4,8 +4,13 @@
 #include "Crypto/Bitcoin.h"
 
 namespace SoftwrDev {
-    void MainApplication::run() {
-        SoftwrDev::Bitcoin bitcoin;
-        std::cout << "Price bitcoin in dolar: " << bitcoin.getPrice() << "\n";
+    void MainApplication::run(const std::string& currency) {
+        if(currency == "btc") {
+            SoftwrDev::Bitcoin bitcoin;
+            std::cout << bitcoin.getPrice() << "\n";
+            return;
+        }
+        std::cout << "Invalid currency provided. Please provide a valid one...\n";
+        exit(-1);
     }
 }
