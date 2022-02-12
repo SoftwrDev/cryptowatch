@@ -3,9 +3,7 @@
 ![CPP Application](https://img.shields.io/badge/C++-Solutions-blue.svg?style=flat&logo=c%2B%2B)
 
 
-This is a tool meant to provide a simple way to get USD pricing of a cryptocurrency. \
-As for now, only bitcoin and ethereum are available, however more cryptocurrencies will be
-provided in the future.
+This is a tool meant to provide a simple way to get USD pricing of a cryptocurrency.
 
 ## Installation
 ### Requirements
